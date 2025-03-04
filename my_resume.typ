@@ -59,9 +59,17 @@
         #h(10pt) 
       ]
       #text(fill: rgb(medium), weight: "bold", )[
-          #underline[https://kr1stoffers.github.io/website/]
+          #underline[https://kr1stoffers.github.io/website]
         ]
-        
+        #v(10pt)
+      #text(12pt, weight: "bold")[Создание резюме]
+      
+      #text(10pt)[- Создание документа с помощью языка разметки Typst.
+        #h(10pt) 
+      ]
+      #text(fill: rgb(medium), weight: "bold", )[
+          #underline[https://github.com/kr1stoffers/Resume]
+        ]
       #v(15pt)
       #line(length: 90%)
 
@@ -129,11 +137,15 @@
         )[
           #set text(10pt, weight: "bold")
           #highlight[Linux]
-          #v(1pt)       
+          #v(1pt) 
+          #highlight[Excel]
+          #v(1pt) 
         ],
         block()[ 
           #set text(10pt, weight: "bold")
           #highlight[Git]
+          #v(1pt)
+          #highlight[Word]
           #v(1pt)
         ]
       )
